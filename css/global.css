@@ -1,0 +1,22 @@
+body{
+	background-color:#000000;
+	font-family:Caudex;
+	
+	width:750px;
+	height:150px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-75px 0 0 -325px;
+}
+
+#main{
+	font-size:2em;
+	color:#FFFFFF;
+}
+.glow{
+	
+}
+.pink{
+	color:pink;
+}
