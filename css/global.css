@@ -1,6 +1,6 @@
 body{
 	background-color:#202020;
-	font-family:'MisoRegular';
+	font-family:'News Cycle', 'sans-serif', 'MisoRegular';
 }
 
 #main{
@@ -33,26 +33,34 @@ a, a:visited{
 
 /* COLORS */
 .linkedin:hover{
+	color:#0073B2;
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0073B2, 0 0 30px #0073B2;
 }
 .twitter:hover{
+	color:#42D0FF;
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #42D0FF, 0 0 30px #42D0FF;
 }
 .runkeeper:hover{
+	color:#23478D;
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #23478D, 0 0 30px #23478D;
 }
 .flickr:hover{
+	color:#FF0084;
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FF0084, 0 0 30px #FF0084;
 }
 .vimeo:hover{
+	color:#0DADD6;
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0DADD6, 0 0 30px #0DADD6;
 }
 .lastfm:hover{
+	color:#C60E15;
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #C60E15, 0 0 30px #C60E15;
 }
 .songkick:hover{
+	color:#F70449;
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F70449, 0 0 30px #F70449;
 }
 .b5n:hover{
+	color:#45ff3a;
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #45ff3a, 0 0 30px #45ff3a;
 }
