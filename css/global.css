@@ -64,6 +64,14 @@ a, a:visited{
 	color:#F70449;
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F70449, 0 0 30px #F70449;
 }
+.technical:hover{
+	color:#F2FC7E;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F2FC7E, 0 0 30px #F2FC7E;
+}
+.personal:hover{
+	color:#7F0EF0;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #7F0EF0, 0 0 30px #7F0EF0;
+}
 .b5n:hover{
 	color:#45ff3a;
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #45ff3a, 0 0 30px #45ff3a;
