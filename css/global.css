@@ -1,27 +1,25 @@
 body{
 	background-color:#202020;
-	font-family:'News Cycle', 'sans-serif', 'MisoRegular';
+	font-family:'News Cycle', 'Arial', 'sans-serif';
 }
 
 #main{
 	margin:0 auto;
-	margin-top:100px;
 	width:960px;
 	
-	font-size:3em;
+	font-size:2em;
 	color:#FFFFFF;
 	letter-spacing: 4px;
 }
-
-.mainDesc{
-	margin-top:50px;
-}
-
 a, a:visited{
 	color:#FFFFFF;
 	text-decoration : none;
 }
-
+.letterPress{
+    color: #000000;
+    font-family:'Stardos Stencil';
+    text-shadow: 0 1px 1px #3E3D3D;
+}
 .glow{
 	text-shadow: 0 0 10px #fff;
 	
@@ -30,10 +28,22 @@ a, a:visited{
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 }
-
 .no-textshadow .glow{
 	color:#EFE3CA;
 }
+
+/*Specific*/
+.sayHi{
+	font-size:2em;
+	margin-left:-5px;
+}
+.sayIAm{
+	font-size:1.4em;
+}
+.mainDesc{
+	margin-top:50px;
+}
+
 
 /* COLORS */
 .linkedin:hover{
