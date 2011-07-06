@@ -31,6 +31,10 @@ a, a:visited{
 	transition: all 0.5s linear;
 }
 
+.no-textshadow .glow{
+	color:#EFE3CA;
+}
+
 /* COLORS */
 .linkedin:hover{
 	color:#F89B31;
