@@ -33,12 +33,12 @@ a, a:visited{
 
 /* COLORS */
 .linkedin:hover{
-	color:#0073B2;
-	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0073B2, 0 0 30px #0073B2;
+	color:#F89B31;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F89B31, 0 0 30px #F89B31;
 }
 .twitter:hover{
-	color:#42D0FF;
-	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #42D0FF, 0 0 30px #42D0FF;
+	color:#FFAE08;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FFAE08, 0 0 30px #FFAE08;
 }
 .runkeeper:hover{
 	color:#23478D;
@@ -49,8 +49,8 @@ a, a:visited{
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FF0084, 0 0 30px #FF0084;
 }
 .vimeo:hover{
-	color:#0DADD6;
-	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0DADD6, 0 0 30px #0DADD6;
+	color:#388FC5;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #388FC5, 0 0 30px #388FC5;
 }
 .lastfm:hover{
 	color:#C60E15;
