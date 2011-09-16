@@ -27,8 +27,6 @@
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=News+Cycle&v2' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Stardos+Stencil&subset=latin&v2&text=Hi' rel='stylesheet' type='text/css'>
-
-  <!-- More ideas for your <head> here: h5bp.com/docs/#head-Tips -->
   
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
   <script src="js/libs/modernizr.custom.38341.js"></script>
@@ -38,40 +36,82 @@
 
   <div id="container">
     <div id="main" role="main">
-    	<h1>
-    		<span class="letterPress sayHi">Hi</span><br />
-			<span class="sayIAm">I am</span><br />
-			<a href="http://b5n.fr/" class="glow b5n">Bastien Colmard</a>.
-		</h1>
-		<p class="mainDesc">
-			I live near Paris, and work as a <a href="http://www.linkedin.com/in/bastiencolmard" class="glow linkedin">Web Developer</a>. I spend some time online watching <a href="http://www.vimeo.com/baztoune/likes" class="glow vimeo">short movies</a>, and discovering <a href="http://www.lastfm.fr/user/Baztoune" class="glow lastfm">music</a>, but you can also find me on some <a href="http://twitter.com/baztoune" class="glow twitter">social networks</a>. Also, I write <a href="http://blog.b5n.fr/" class="glow personal">personal</a> and <a href="http://codeblessyou.com/" class="glow technical">technical</a> stuff on blogs. Beside my online activity, I'm an amateur <a href="http://www.flickr.com/photos/baztoune/" class="glow flickr">photographer</a>, I use to go to <a href="http://www.songkick.com/users/Baztoune" class="glow songkick">concerts</a> and do <a href="http://runkeeper.com/user/Baztoune" class="glow runkeeper">sport</a> several times a week.
-		</p>
-        <div class="extendedDesc">
-            <section>
-                <h3>Social</h3>
-                <a href="http://www.facebook.com/bastien.colmard"><img src="img/icons/Facebook_128.png" height="100px" width="100px" /></a>
-                <a href="http://twitter.com/baztoune"><img src="img/icons/Twitter_128.png" height="100px" width="100px" /></a>
-                <a href="https://plus.google.com/110490080502313323155/"><img src="img/icons/Google_128.png" height="100px" width="100px" /></a>
-            </section>
-            <section>
-                <h3>Pictures, music, video</h3>
-                <a href="http://grooveshark.com/baztoune"><img src="" height="100px" width="100px" /></a>
-                <a href="http://www.lastfm.fr/user/Baztoune"><img src="img/icons/Last_fm_128.png" height="100px" width="100px" /></a>
-                <a href="http://www.deezer.com/fr/profile/350651"><img src="" height="100px" width="100px" /></a>
-                <a href="vimeo.com/baztoune/likes"><img src="img/icons/Vimeo_128.png" height="100px" width="100px" /></a>
-                <a href="http://www.flickr.com/photos/baztoune/"><img src="img/icons/Flickr_128.png" height="100px" width="100px" /></a>
-            </section>
-            <section>
-                <h3>Professional</h3>
-                <a href="http://linkedin.com/in/bastiencolmard"><img src="img/icons/Linkedin_128.png" height="100px" width="100px" /></a>
-                <a href="http://www.viadeo.com/profile/bastien.colmard"><img src="img/icons/Viadeo_128.png" height="100px" width="100px" /></a>
-                <a href="http://www.diigo.com/profile/baztoune"><img src="img/icons/Diigo_128.png" height="100px" width="100px" /></a>
-            </section>
-        </div>
+		<section>
+			<h1>
+				<span class="letterPress sayHi">Hi.</span><br />
+				<span class="sayIAm"> I am </span><a href="http://b5n.fr/" class="glow b5n">Bastien Colmard</a>.
+			</h1>
+			<p class="mainDesc">
+				I live near Paris, and work as a <a href="http://www.linkedin.com/in/bastiencolmard" class="glow linkedin">Web Developer</a>. I spend some time online watching <a href="http://www.vimeo.com/baztoune/likes" class="glow vimeo">short movies</a>, and discovering <a href="http://www.lastfm.fr/user/Baztoune" class="glow lastfm">music</a>, but you can also find me on some <a href="http://twitter.com/baztoune" class="glow twitter">social networks</a>. Also, I write <a href="http://blog.b5n.fr/" class="glow personal">personal</a> and <a href="http://codeblessyou.com/" class="glow technical">technical</a> stuff on blogs. Beside my online activity, I'm an amateur <a href="http://www.flickr.com/photos/baztoune/" class="glow flickr">photographer</a>, I use to go to <a href="http://www.songkick.com/users/Baztoune" class="glow songkick">concerts</a> and do <a href="http://runkeeper.com/user/Baztoune" class="glow runkeeper">sport</a> several times a week.
+			</p>
+		</section>
+		
+		<h2 id="gimmeMore">Gimme more!</h2>
+		<section id="gimmeMoreSection">	
+			<div class="ribbon-wrapper">
+				<div class="ribbon-front">
+					<ul id="categorySelector" class="clearfix">
+						<li id="socialSelector">Social</li>
+						<li id="photoSelector">Photo</li>
+						<li id="musicSelector">Music</li>
+						<li id="videoSelector">Video</li>
+						<li id="proSelector">Pro</li>
+						<li id="codeSelector">Code</li>
+						<li id="webSelector">Web</li>
+					</ul>
+				</div>
+				<div class="ribbon-edge-topleft"></div>
+				<div class="ribbon-edge-topright"></div>
+				<div class="ribbon-edge-bottomleft"></div>
+				<div class="ribbon-edge-bottomright"></div>
+				<div class="ribbon-back-left"></div>
+				<div class="ribbon-back-right"></div>
+			</div>
+
+			<div class="extendedDesc">
+				<a class="social" href="http://www.facebook.com/bastien.colmard">
+					<img src="img/icons/Facebook_128.png" height="100px" width="100px" />
+				</a>
+				<a class="social" href="http://twitter.com/baztoune">
+					<img src="img/icons/Twitter_128.png" height="100px" width="100px" />
+				</a>
+				<a class="social" href="https://plus.google.com/110490080502313323155/">
+					<img src="img/icons/Google_128.png" height="100px" width="100px" />
+				</a>
+				<a class="music" href="http://grooveshark.com/baztoune">
+					<img src="" height="100px" width="100px" />
+				</a>
+				<a class="music" href="http://www.lastfm.fr/user/Baztoune">
+					<img src="img/icons/Last_fm_128.png" height="100px" width="100px" />
+				</a>
+				<a class="music" href="http://www.deezer.com/fr/profile/350651">
+					<img src="" height="100px" width="100px" />
+				</a>
+				<a class="video" href="vimeo.com/baztoune/likes">
+					<img src="img/icons/Vimeo_128.png" height="100px" width="100px" />
+				</a>
+				<a class="photo" href="http://www.flickr.com/photos/baztoune/">
+					<img src="img/icons/Flickr_128.png" height="100px" width="100px" />
+				</a>
+				<a class="pro" href="http://linkedin.com/in/bastiencolmard">
+					<img src="img/icons/Linkedin_128.png" height="100px" width="100px" />
+				</a>
+				<a class="pro" href="http://www.viadeo.com/profile/bastien.colmard">
+					<img src="img/icons/Viadeo_128.png" height="100px" width="100px" />
+				</a>
+				<a class="code" href="http://www.diigo.com/profile/baztoune">
+					<img src="img/icons/Diigo_128.png" height="100px" width="100px" />
+				</a>
+			</div>
+		</section>
     </div>
   </div> <!--! end of #container -->
 
 
+  <script src="js/libs/jquery-1.6.1.min.js"></script>
+  <script src="js/libs/jquery.quicksand.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/plugins.js"></script>
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7 ]>

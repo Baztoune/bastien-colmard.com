@@ -2,19 +2,46 @@ body{
 	background-color:#202020;
 	font-family:'News Cycle', 'Arial', 'sans-serif';
 }
-
 #main{
 	margin:0 auto;
 	width:960px;
-	
 	font-size:2em;
 	color:#FFFFFF;
 	letter-spacing: 4px;
 }
+h2#gimmeMore{
+	text-align:center;
+	font-size:0.9em;
+	margin:0;
+}
+
 a, a:visited{
 	color:#FFFFFF;
 	text-decoration : none;
 }
+ul#categorySelector{
+	list-style-type:none;
+	padding:0;
+	width:960px;
+	height:100%;
+	margin:auto;
+	text-align:center;
+}
+ul#categorySelector li{
+	display:inline-block;
+	width:100px;
+	height:100%;
+	text-align:center;
+	cursor:pointer;
+	-webkit-transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+ul#categorySelector li:hover{
+	background-color:#3BA515;
+}
+
 .letterPress{
     color: #000000;
     font-family:'Stardos Stencil';
@@ -41,7 +68,7 @@ a, a:visited{
 	font-size:1.4em;
 }
 .mainDesc{
-	margin-top:50px;
+	margin-top:0px;
 }
 
 
@@ -85,4 +112,103 @@ a, a:visited{
 .b5n:hover{
 	color:#45ff3a;
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #45ff3a, 0 0 30px #45ff3a;
+}
+
+/*RIBBON*/
+/* ribbon style */
+
+ .ribbon-wrapper {
+	position: relative;
+	margin:85px auto;
+}
+  .ribbon-front {
+	background: #117905; /* Old browsers */
+	background: -moz-linear-gradient(top, #117905 0%, #034f00 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#117905), color-stop(100%,#034f00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #117905 0%,#034f00 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #117905 0%,#034f00 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #117905 0%,#034f00 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#117905', endColorstr='#034f00',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #117905 0%,#034f00 100%); /* W3C */
+	height: 40px;
+	width: 1000px;
+	position: relative;
+	left:-20px;
+	z-index: 2;
+}
+
+  .ribbon-front,
+  .ribbon-back-left,
+  .ribbon-back-right
+{
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-o-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+}
+
+  .ribbon-edge-topleft,
+  .ribbon-edge-topright,
+  .ribbon-edge-bottomleft,
+  .ribbon-edge-bottomright {
+	position: absolute;
+	z-index: 1;
+	border-style:solid;
+	height:0px;
+	width:0px;
+}
+
+  .ribbon-edge-topleft,
+  .ribbon-edge-topright {
+}
+
+  .ribbon-edge-bottomleft,
+  .ribbon-edge-bottomright {
+	top: 40px;
+}
+
+  .ribbon-edge-topleft,
+  .ribbon-edge-bottomleft {
+	left: -20px;
+	border-color: transparent #045401 transparent transparent;
+}
+
+  .ribbon-edge-topleft {
+	top: -10px;
+	border-width: 10px 20px 0 0;
+}
+  .ribbon-edge-bottomleft {
+	border-width: 0 20px 0px 0;
+}
+
+  .ribbon-edge-topright,
+  .ribbon-edge-bottomright {
+	left: 960px;
+	border-color: transparent transparent transparent #045401;
+}
+
+  .ribbon-edge-topright {
+	top: -10px;
+	border-width: 10px 0 0 20px;
+}
+  .ribbon-edge-bottomright {
+	border-width: 0 0 0px 20px;
+}
+
+  .ribbon-back-left {
+	position: absolute;
+	top: -10px;
+	left: 0px;
+	width: 0px;
+	height: 40px;
+	background-color: #3BA515;	z-index: 0;
+}
+
+  .ribbon-back-right {
+	position: absolute;
+	top: -10px;
+	right: 0px;
+	width: 0px;
+	height: 40px;
+	background-color: #3BA515;	z-index: 0;
 }
