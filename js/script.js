@@ -2,31 +2,18 @@
 
 */
 $(document).ready(function(){
-	$('#gimmeMoreSection').hide();
+	$('#categorySelector').hide();
+	$('#extendedDesc a').hide();
+	
 	$('#gimmeMore').click(function(e){
-		$(e.target).remove();
-		$('#gimmeMoreSection').show(1000);
+		$(e.target).hide();
+		$('#categorySelector').show();
+		
+		$('#extendedDesc a').show(1000);
 	});
+	
+
+	
+
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
