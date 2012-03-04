@@ -101,9 +101,54 @@ ul.knowMore{
 }
 .knowMore li a{
 	display:block;
-	padding-left:25px;
+	color: #D2D3CB;
+	font-size:0.7em;
 }
 .list-title{
 	text-align:center;
-	margin-top:10px;
+	margin-top:35px;
+}
+.ico{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background-image: url("../img/favicons.png");
+	background-repeat:no-repeat;
+	margin-right:5px;
+}
+.ico-twitter{
+	background-position:0px -16px;
+}
+.ico-songkick{
+	background-position:0px -32px;
+}
+.ico-googleplus{
+	background-position:0px -48px;
+}
+.ico-runkeeper{
+	background-position:0px -64px;
+}
+.ico-youtube{
+	background-position:0px -80px;
+}
+.ico-vimeo{
+	background-position:0px -96px;
+}
+.ico-gmail{
+	background-position:0px -112px;
+}
+.ico-soundcloud{
+	background-position:0px -128px;
+}
+.ico-skype{
+	background-position:0px -144px;
+}
+.ico-lastfm{
+	background-position:0px -160px;
+}
+.ico-linkedin{
+	background-position:0px -176px;
+}
+.ico-flickr{
+	background-position:0px -192px;
 }
