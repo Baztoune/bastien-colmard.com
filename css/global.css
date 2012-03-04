@@ -89,6 +89,10 @@ a.webItem img:hover{
 }
 .mainDesc{
 	margin-top:0px;
+	text-align:justify;
+}
+.b5n{
+	font-size:1.5em;
 }
 
 
