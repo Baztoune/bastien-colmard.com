@@ -98,6 +98,8 @@ ul.unstyled{
 ul.knowMore{
 	width:33%;
 	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .knowMore li a{
 	display:block;
@@ -109,6 +111,7 @@ ul.knowMore{
 }
 .list-title{
 	text-align:center;
+	margin-bottom:10px;
 }
 .ico{
 	display:inline-block;
@@ -192,4 +195,13 @@ ul.knowMore{
 }
 .ico-viadeo{
 	background-position:0px -400px;
+}
+.ico-cby{
+	background-position:0px -416px;
+}
+.ico-wordpress{
+	background-position:0px -432px;
+}
+.ico-photofnu{
+	background-position:0px -448px;
 }
