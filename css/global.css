@@ -104,9 +104,11 @@ ul.knowMore{
 	color: #D2D3CB;
 	font-size:0.7em;
 }
+.knowMore li a:hover{
+	color:#FFFFFF;
+}
 .list-title{
 	text-align:center;
-	margin-top:35px;
 }
 .ico{
 	display:inline-block;
@@ -122,7 +124,7 @@ ul.knowMore{
 .ico-songkick{
 	background-position:0px -32px;
 }
-.ico-jamendo{
+.ico-psn{
 	background-position:0px -48px;
 }
 .ico-runkeeper{
