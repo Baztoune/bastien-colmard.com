@@ -206,3 +206,22 @@ ul.knowMore{
 .ico-photofnu{
 	background-position:0px -448px;
 }
+
+@media (min-width: 768px) and (max-width: 979px){
+	#main{
+		width:768px;
+	}
+}
+@media (max-width: 767px) {
+	#main{
+		width:100%;
+	}
+	ul.knowMore{
+		width:100%;
+	}
+}
+@media (max-width: 479px){
+	.mainDesc{
+		display:none;
+	}
+}
