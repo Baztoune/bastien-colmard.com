@@ -1,6 +1,6 @@
 body{
 	background-color:#333333;
-	font-family:'News Cycle', 'Arial', 'sans-serif';
+	font-family:'News Cycle', Arial, Helvetica, sans-serif;
 }
 #main{
 	margin:0 auto;
@@ -16,18 +16,17 @@ a.glow, a.glow:visited{
 
 .letterPress{
     color: #000000;
-    font-family:'Stardos Stencil';
+    font-family:'Stardos Stencil', Arial, Helvetica, sans-serif;
     text-shadow: 0 1px 1px #3E3D3D;
 }
 .glow{
 	text-shadow: 0 0 10px #fff;
-	
-	-webkit-transition: all 0.5s linear;
-	-moz-transition: all 0.5s linear;
-	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
 }
-.no-textshadow .glow{
+.no-textshadow a.glow{
 	color:#EFE3CA;
 	text-decoration:underline;
 }
@@ -47,10 +46,38 @@ a.glow, a.glow:visited{
 	text-shadow:1px 1px 3px #000;
 }
 .b5n{
-	font-size:1.5em;
+	font-size:1.4em;
 }
 
-
+/* Liste */
+ul.unstyled{
+	padding-left:0;
+	list-style-type: none;
+}
+.list-block{
+	width:33%;
+	height:200px;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.external-link a{
+	display:block;
+	color: #D2D3CB;
+	font-size:0.7em;
+	padding:2px;
+	padding-left:60px;
+}
+a .ico{
+	text-decoration:none; /* fix Android underline */
+}
+.external-link a:hover{
+	color:#FFFFFF;
+}
+.list-title{
+	text-align:center;
+	margin-bottom:10px;
+}
 /* COLORS */
 .linkedin:hover{
 	color:#F89B31;
@@ -93,34 +120,6 @@ a.glow, a.glow:visited{
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #45ff3a, 0 0 30px #45ff3a;
 }
 
-/* Liste */
-ul.unstyled{
-	padding-left:0;
-	list-style-type: none;
-}
-.list-block{
-	width:33%;
-	height:180px;
-	float:left;
-	margin-top:10px;
-	margin-bottom:10px;
-}
-.external-link a{
-	display:block;
-	color: #D2D3CB;
-	font-size:0.7em;
-	padding-left:60px;
-}
-a .ico{
-	text-decoration:none; /* fix Android underline */
-}
-.external-link a:hover{
-	color:#FFFFFF;
-}
-.list-title{
-	text-align:center;
-	margin-bottom:10px;
-}
 /* icones */
 .ico{
 	display:inline-block;
