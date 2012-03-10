@@ -95,20 +95,23 @@ ul.unstyled{
 	padding-left:0;
 	list-style-type: none;
 }
-ul.knowMore{
+.list-block{
 	width:33%;
 	height:180px;
 	float:left;
 	margin-top:10px;
 	margin-bottom:10px;
 }
-.knowMore li a{
+.external-link a{
 	display:block;
 	color: #D2D3CB;
 	font-size:0.7em;
 	padding-left:60px;
 }
-.knowMore li a:hover{
+a .ico{
+	text-decoration:none; /* fix Android underline */
+}
+.external-link a:hover{
 	color:#FFFFFF;
 }
 .list-title{
@@ -210,30 +213,62 @@ ul.knowMore{
 }
 
 /* Media queries */
-@media (min-width: 768px) and (max-width: 979px){
+@media (max-width: 979px){
 	#main{
 		width:768px;
 	}
-	ul.knowMore{
+	.list-block{
 		width:50%;
 	}
-	.knowMore li a{
+	.external-link a{
 		padding-left:30px;
 	}
 }
 @media (max-width: 767px) {
 	#main{
-		width:100%;
-	}
-	ul.knowMore{
-		width:100%;
-	}
-	.knowMore li a{
-		padding-left:30px;
+		width:480px;
 	}
 }
 @media (max-width: 479px){
+	#main{
+		width:100%;
+	}
 	.mainDesc{
 		display:none;
+	}
+	.list-block{
+		width:100%;
+		height:100%;
+	}
+	.external-link{
+		border: 1px solid #444;
+		border-left:none;
+		border-right:none;
+		background: #111;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#222)); /* Saf4+, Chrome */
+		background-image: -webkit-linear-gradient(#444,#222); /* Chrome 10+, Saf5.1+ */
+		background-image:    -moz-linear-gradient(#444,#222); /* FF3.6 */
+		background-image:     -ms-linear-gradient(#444,#222); /* IE10 */
+		background-image:      -o-linear-gradient(#444,#222); /* Opera 11.10+ */
+		background-image:         linear-gradient(#444,#222);
+	}
+	.external-link a {
+		text-decoration:none;
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+}
+@media (max-width: 319px){
+	#main{
+		min-width:250px;
+	}
+	.sayHi, .sayIAm, .finalDot{
+		display:none;
+	}
+	h1{
+		text-align:center;
+	}
+	.external-link a{
+		padding-left:15px;
 	}
 }
