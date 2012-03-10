@@ -97,6 +97,7 @@ ul.unstyled{
 }
 ul.knowMore{
 	width:33%;
+	height:180px;
 	float:left;
 	margin-top:10px;
 	margin-bottom:10px;
@@ -114,6 +115,7 @@ ul.knowMore{
 	text-align:center;
 	margin-bottom:10px;
 }
+/* icones */
 .ico{
 	display:inline-block;
 	width:16px;
@@ -207,9 +209,16 @@ ul.knowMore{
 	background-position:0px -448px;
 }
 
+/* Media queries */
 @media (min-width: 768px) and (max-width: 979px){
 	#main{
 		width:768px;
+	}
+	ul.knowMore{
+		width:50%;
+	}
+	.knowMore li a{
+		padding-left:30px;
 	}
 }
 @media (max-width: 767px) {
@@ -218,6 +227,9 @@ ul.knowMore{
 	}
 	ul.knowMore{
 		width:100%;
+	}
+	.knowMore li a{
+		padding-left:30px;
 	}
 }
 @media (max-width: 479px){
