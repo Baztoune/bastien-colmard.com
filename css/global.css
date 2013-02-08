@@ -68,6 +68,12 @@ ul.unstyled{
 	padding:2px;
 	padding-left:60px;
 }
+a {
+	text-decoration:none;
+}
+.external-link a:hover {
+	text-decoration:underline;
+}
 a .ico{
 	text-decoration:none; /* fix Android underline */
 }
