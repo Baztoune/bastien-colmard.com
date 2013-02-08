@@ -1,0 +1,209 @@
+/*------------------------------
+=BASIC SETUP
+------------------------------*/
+
+/* Makeshift CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, section, aside, nav, article {
+	display: block;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	font: 13px/22px Helvetica, Arial, sans-serif;
+	background: #F0F0F0;
+}
+
+h1, h2 {
+	font-size: 28px;
+	line-height: 44px;
+	padding: 11px 0;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 22px;
+	padding: 11px 0;
+}
+
+p {
+	padding-bottom: 22px;
+}
+
+
+/*------------------------------
+=BODY
+------------------------------*/
+
+body {
+	background-color:#333642;
+}
+
+#mainHeader{
+	background:#333642 url(./images/background.png) repeat-x scroll left top;
+	border-bottom:1px solid #3C404C;
+	padding : 30 0 30 0px;
+}
+
+#mainHeader h2 {
+	margin-left : 15%;
+	color : #FFFFFF;
+	font-style:italic;
+	font-size:20px;
+}
+
+#mainHeader h1{
+	color : #A5A8B3;
+	font-size : 3em;
+	margin-left : 10%;
+}
+
+/*Style for the 'title'*/
+#mainHeader h1 span.oneDay{
+	color : #A5A8B3;
+}
+#mainHeader h1 span.in{
+	color : #A5A8B3;
+}
+#mainHeader h1 span.dot{
+	color : #000000;
+}
+#mainHeader h1 span.slash{
+	color : #000000;
+}
+#mainHeader h1 span.city{
+	color : #C153B9;
+	font-size : 1.2em;
+}
+
+#content {
+	margin: 0 auto;
+	padding-left : 10%;
+	padding-right : 10%;
+	padding-top : 20px;
+}
+
+.blogPost {
+	background-color : #BFC1C4;
+	border: 1px solid #000;
+	margin-bottom:20px;
+}
+
+.blogPost div{
+	padding : 10px;
+}
+
+.blogPost header h2{
+	background-color : #D6D6D6;
+	padding : 0px;
+	padding-left : 12px;
+	border-bottom:1px solid #A2A2A2;
+}
+
+.blogPost header p{
+	padding-left : 25px;
+}
+
+
+/*------------------------------
+=CONTENT AREA AND SIDEBAR LAYOUT
+------------------------------*/
+
+#content {
+	display: table;
+}
+
+	#mainContent {
+		display: table-cell;
+		padding-right: 22px;
+	}
+
+
+
+/*------------------------------
+=BLOG POST
+------------------------------*/
+.blogPost header p, .blogPost header p a {
+		font-size: 14px;
+		font-style: italic;
+		color: #777;
+	}
+	
+		.blogPost header p a:hover {
+			text-decoration: none;
+			color: #000;
+		}
+
+.blogPost div {
+	/* Column-count not implemented yet */
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	
+	/* Column-gap not implemented yet */
+	-moz-column-gap: 22px;
+	-webkit-column-gap: 22px;
+}
+	
+.blogPost img {
+	margin: 22px 0;
+	-webkit-box-shadow: 3px 3px 7px #777;
+}
+
+
+
+/*------------------------------
+=FOOTER
+------------------------------*/
+footer {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background: #222;
+}
+
+	footer div {
+		display: table;
+		margin: 0 auto;
+		padding: 44px 0;
+		width: 940px;
+		color: #777;
+	}
+	
+		footer div section {
+			display: table-cell;
+			width: 300px;
+		}
+		
+		footer div #about, footer div #blogroll {
+			padding-right: 20px;
+		}
+		
+	footer h3 {
+		color: #FFF;
+	}
+	
+	footer a {
+		color: #999;
+	}
+	
+		footer a:hover {
+			color: #FFF;
+			text-decoration: none;
+		}
+	
+	footer ul {
+		margin: 0 0 0 40px;
+		list-style: square;
+		color: #565656;
+	}
+	
+		footer ul li a {
+			display: block;
+		}
